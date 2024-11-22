@@ -172,6 +172,3 @@ def clear_history(request):
     history = LastFace.objects.all()
     history.delete()
     return redirect('home')
-
-
-
